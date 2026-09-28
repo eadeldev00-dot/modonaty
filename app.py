@@ -1,4 +1,4 @@
-    import streamlit as st
+import streamlit as st
 from supabase import create_client
 import pandas as pd
 import plotly.express as px
@@ -6,6 +6,8 @@ from datetime import date, datetime
 import hashlib
 import os
 import binascii
+
+# باقي كود التطبيق...
 
 # ==========================================
 # 1. إعدادات الصفحة والواجهة الفاخرة لـ "داونتي | مدونتي"
